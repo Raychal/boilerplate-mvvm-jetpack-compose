@@ -48,47 +48,47 @@ It handles database operations, preferences, and data sources.
 │   │   │   ├── MainActiviy.kt
 ```
 
-local Package: Manages local database operations.
+**local Package**: Manages local database operations.
 
-database Package: Provides access to the application database.
+**database Package**: Provides access to the application database.
 
-dao Package: Contains Data Access Object (DAO) classes that perform database operations.
+**dao Package**: Contains Data Access Object (DAO) classes that perform database operations.
 
-UserDao.kt: DAO class for user data.
+**UserDao.kt**: DAO class for user data.
 
-entity Package: Defines entity classes representing data in the database.
+**entity Package**: Defines entity classes representing data in the database.
 
-UserEntity.kt: Entity class representing user data.
+**UserEntity.kt**: Entity class representing user data.
 
-pref Package: Manages application preferences.
+**pref Package**: Manages application preferences.
 
-AppPreferences.kt: Class holding application preferences.
+**AppPreferences.kt**: Class holding application preferences.
 
-repository Package: Contains repository classes managing local database operations.
+**repository Package**: Contains repository classes managing local database operations.
 
-LocalRepository.kt: Main repository class managing local database operations.
+**LocalRepository.kt**: Main repository class managing local database operations.
 
-remote Package: Manages interaction with remote servers.
+**remote Package**: Manages interaction with remote servers.
 
-api Package: Defines the API service for communication with the remote server.
+**api Package**: Defines the API service for communication with the remote server.
 
-ApiService.kt: API service for remote server communication.
+**ApiService.kt**: API service for remote server communication.
 
-model Package: Contains classes representing data received from the remote server.
+**model Package:** Contains classes representing data received from the remote server.
 
-UserApiResponse.kt: Class representing user data received from the remote server.
+**UserApiResponse.kt**: Class representing user data received from the remote server.
 
-repository Package: Contains repository classes managing remote server operations.
+**repository Package**: Contains repository classes managing remote server operations.
 
-RemoteDataRepository.kt: The main repository class managing remote server operations. 
+**RemoteDataRepository.kt**: The main repository class managing remote server operations. 
 (If the technology or library used is compatible with sync processes, a more specific 
 expression can be used under this title, such as “Remote Repository.”)
 
-NetworkBoundResource.kt: Helper class managing network-bound resource handling.
+**NetworkBoundResource.kt**: Helper class managing network-bound resource handling.
 
-repository Package: Manages general data operations for the application.
+**repository Package**: Manages general data operations for the application.
 
-DataRepository.kt: Main repository class combining access to local and remote data sources.
+**DataRepository.kt**: Main repository class combining access to local and remote data sources.
 
 #### di Package
 This package manages dependency injection using Dagger Hilt. 
@@ -109,11 +109,11 @@ Module classes provide dependencies used throughout the application.
 │   │   │   ├── MainActiviy.kt
 ```
 
-AppModule.kt: Provides general dependencies at the application level.
+**AppModule.kt**: Provides general dependencies at the application level.
 
-DatabaseModule.kt: Manages database dependencies.
+**DatabaseModule.kt**: Manages database dependencies.
 
-NetworkModule.kt: Provides dependencies for network connectivity.
+**NetworkModule.kt**: Provides dependencies for network connectivity.
 
 #### ui Package
 This package is responsible for the user interface components of the application.
@@ -136,15 +136,15 @@ It has been updated to include three new sub-packages: main, detail, and userPro
 │   │   │   ├── MainActiviy.kt
 ```
 
-main Package: Manages the main screen of the application.
+**main Package**: Manages the main screen of the application.
 
-MainScreen.kt: Class managing the main screen's logic and appearance.
+**MainScreen.kt**: Class managing the main screen's logic and appearance.
 
-MainViewModel.kt: ViewModel class for the main screen.
+**MainViewModel.kt**: ViewModel class for the main screen.
 
-component Package: Manages the component for the other screen.
+**component Package:** Manages the component for the other screen.
 
-theme Package: Manages theme like color, font, etc of the application.
+**theme Package**: Manages theme like color, font, etc of the application.
 
 #### util Package
 This package contains utility classes used throughout the application.
@@ -162,7 +162,7 @@ This package contains utility classes used throughout the application.
 │   │   │   ├── MainActiviy.kt
 ```
 
-DateUtil.kt: Utility class for date and time operations.
+**DateUtil.kt**: Utility class for date and time operations.
 
 #### model Package
 This package contains data models used throughout the application.
@@ -180,4 +180,4 @@ This package contains data models used throughout the application.
 │   │   │   ├── MainActiviy.kt
 ```
 
-User.kt: Base user data model.
+**User.kt:** Base user data model.
