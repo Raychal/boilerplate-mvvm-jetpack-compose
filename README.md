@@ -4,6 +4,9 @@ This repo is intended to make it easier for you to initiate projects and easy to
 using Kotlin as a programming language and MVVM architecture. With a project structure
 that is already set up and can be integrated with popular libraries such as Hilt, Room, and Retrofit.
 
+## Caution
+if you have better option or suggest. Please make issue or fork this repo
+
 ## MVVM Architecture
 MVVM architecture enables better code readability and easier maintenance by separating concerns between 
 data, user interface, and business logic.
